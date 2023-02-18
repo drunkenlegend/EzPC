@@ -36,6 +36,7 @@ Modified by Deevashwer Rathee
 
 #ifdef EMP_USE_RANDOM_DEVICE
 #else
+#include <immintrin.h>
 #include <x86intrin.h>
 #endif
 
